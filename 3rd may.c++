@@ -3,6 +3,7 @@ bool makePalindrome(int n,vector<string> &arr){
     for(auto it:arr)
     {
         string rev=it;
+        
         reverse(rev.begin(),rev.end());
         if(mp.find(rev)!=mp.end())
         {
