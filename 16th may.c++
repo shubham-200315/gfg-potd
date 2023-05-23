@@ -3,7 +3,7 @@
         for(int i=end;i>=start;i--){
             if(s[i]=='1'){
                 num+=j;
-            }
+            } 
             j*=2; 
         }
         while(num>1){
