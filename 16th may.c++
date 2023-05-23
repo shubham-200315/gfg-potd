@@ -4,7 +4,7 @@
             if(s[i]=='1'){
                 num+=j;
             }
-            j*=2;
+            j*=2; 
         }
         while(num>1){
             if(num%5!=0)return false;
